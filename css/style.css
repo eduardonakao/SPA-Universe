@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {  
+    font-weight: 400;
+    font-size: 2.16rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 7.2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav svg {
+    margin-right: 4.3rem;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5.36rem;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
